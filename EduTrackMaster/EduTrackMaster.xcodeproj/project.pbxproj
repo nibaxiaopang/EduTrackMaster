@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E5B651A2D102E9100E47C51 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B65192D102E9100E47C51 /* AddTaskViewController.swift */; };
+		4E5B651C2D10364300E47C51 /* TaskHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B651B2D10364300E47C51 /* TaskHistoryViewController.swift */; };
+		4E5B651E2D10365A00E47C51 /* TaskHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B651D2D10365A00E47C51 /* TaskHistoryTableViewCell.swift */; };
+		4EA34F462D0C545C00B6D3FA /* LectureHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA34F452D0C545C00B6D3FA /* LectureHistoryViewController.swift */; };
+		4EA34F482D0C54A300B6D3FA /* lecturehistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA34F472D0C54A300B6D3FA /* lecturehistoryTableViewCell.swift */; };
+		4EB2CE4B2D100610005076E1 /* AddAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB2CE4A2D100610005076E1 /* AddAssignmentViewController.swift */; };
+		4EB2CE4D2D101AA9005076E1 /* AssignmentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB2CE4C2D101AA9005076E1 /* AssignmentHistoryViewController.swift */; };
+		4EB2CE4F2D101B7C005076E1 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB2CE4E2D101B7C005076E1 /* HistoryTableViewCell.swift */; };
+		4EF843B22D0861E900497126 /* AddlectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF843B12D0861E900497126 /* AddlectureViewController.swift */; };
+		CDBBD6FF2D082A1100DC9A8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD6FE2D082A1100DC9A8B /* AppDelegate.swift */; };
+		CDBBD7012D082A1100DC9A8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD7002D082A1100DC9A8B /* SceneDelegate.swift */; };
+		CDBBD7032D082A1100DC9A8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD7022D082A1100DC9A8B /* ViewController.swift */; };
+		CDBBD7062D082A1100DC9A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBBD7042D082A1100DC9A8B /* Main.storyboard */; };
+		CDBBD7082D082A1300DC9A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBBD7072D082A1300DC9A8B /* Assets.xcassets */; };
+		CDBBD70B2D082A1300DC9A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBBD7092D082A1300DC9A8B /* LaunchScreen.storyboard */; };
+		CDBBD7352D082C3D00DC9A8B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD7342D082C3D00DC9A8B /* DashboardViewController.swift */; };
+		CDBBD7382D082C7600DC9A8B /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD7362D082C7600DC9A8B /* iOSDropDown.swift */; };
+		CDBBD7392D082C7600DC9A8B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD7372D082C7600DC9A8B /* Helper.swift */; };
+		CDBBD7412D082CE200DC9A8B /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD73D2D082CE200DC9A8B /* AboutusViewController.swift */; };
+		CDBBD7422D082CE200DC9A8B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD73E2D082CE200DC9A8B /* SettingsViewController.swift */; };
+		CDBBD7432D082CE200DC9A8B /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD73F2D082CE200DC9A8B /* SideMenuTableViewCell.swift */; };
+		CDBBD7442D082CE200DC9A8B /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBD7402D082CE200DC9A8B /* FeedbackViewController.swift */; };
+		D527E4646B9B607EDBB82EC1 /* Pods_EduTrackMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAAA0C5DC940EEDA5CA4F48 /* Pods_EduTrackMaster.framework */; };
+		FFF82DCB2D2276A5009E2A77 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF82DCA2D2276A5009E2A77 /* WelcomeViewController.swift */; };
+		FFF82DCD2D227BF7009E2A77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFF82DCC2D227BF7009E2A77 /* GoogleService-Info.plist */; };
+		FFF82E002D228526009E2A77 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFF82DFE2D228526009E2A77 /* Localizable.strings */; };
+		FFF82E072D2287EF009E2A77 /* UIViewController+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF82E062D2287EF009E2A77 /* UIViewController+category.m */; };
+		FFF82E092D22893F009E2A77 /* BaseEduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF82E082D22893F009E2A77 /* BaseEduViewController.swift */; };
+		FFF82E0B2D228A67009E2A77 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF82E0A2D228A67009E2A77 /* PrivacyPolicyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AF27D15683E19A8909BCB24 /* Pods-EduTrackMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTrackMaster.release.xcconfig"; path = "Target Support Files/Pods-EduTrackMaster/Pods-EduTrackMaster.release.xcconfig"; sourceTree = "<group>"; };
+		0EADE9B1F8D7F5C158132405 /* Pods-EduTrack Master-EduTrack MasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTrack Master-EduTrack MasterUITests.release.xcconfig"; path = "Target Support Files/Pods-EduTrack Master-EduTrack MasterUITests/Pods-EduTrack Master-EduTrack MasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0FEF3216DA0BE85AF4BE87FB /* Pods-EduTrack MasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTrack MasterTests.debug.xcconfig"; path = "Target Support Files/Pods-EduTrack MasterTests/Pods-EduTrack MasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11AC79BD2A159D6C64ADB205 /* Pods-EduTrackMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTrackMaster.debug.xcconfig"; path = "Target Support Files/Pods-EduTrackMaster/Pods-EduTrackMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		4E5B65192D102E9100E47C51 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		4E5B651B2D10364300E47C51 /* TaskHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHistoryViewController.swift; sourceTree = "<group>"; };
+		4E5B651D2D10365A00E47C51 /* TaskHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4EA34F452D0C545C00B6D3FA /* LectureHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureHistoryViewController.swift; sourceTree = "<group>"; };
+		4EA34F472D0C54A300B6D3FA /* lecturehistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecturehistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4EB2CE4A2D100610005076E1 /* AddAssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentViewController.swift; sourceTree = "<group>"; };
+		4EB2CE4C2D101AA9005076E1 /* AssignmentHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentHistoryViewController.swift; sourceTree = "<group>"; };
+		4EB2CE4E2D101B7C005076E1 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4EF843B12D0861E900497126 /* AddlectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddlectureViewController.swift; sourceTree = "<group>"; };
+		6030BB217046F54BC3905173 /* Pods-EduTrack Master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTrack Master.release.xcconfig"; path = "Target Support Files/Pods-EduTrack Master/Pods-EduTrack Master.release.xcconfig"; sourceTree = "<group>"; };
+		6CAAA0C5DC940EEDA5CA4F48 /* Pods_EduTrackMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EduTrackMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD691AB637F6F06B1250101 /* Pods-EduTrack Master-EduTrack MasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTrack Master-EduTrack MasterUITests.debug.xcconfig"; path = "Target Support Files/Pods-EduTrack Master-EduTrack MasterUITests/Pods-EduTrack Master-EduTrack MasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B437333828A2D0DE87B34F66 /* Pods-EduTrack Master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTrack Master.debug.xcconfig"; path = "Target Support Files/Pods-EduTrack Master/Pods-EduTrack Master.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C71131CFEEDC6F6C401440 /* Pods_EduTrack_MasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EduTrack_MasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBBD6FB2D082A1100DC9A8B /* EduTrackMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduTrackMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBBD6FE2D082A1100DC9A8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDBBD7002D082A1100DC9A8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDBBD7022D082A1100DC9A8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDBBD7052D082A1100DC9A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDBBD7072D082A1300DC9A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDBBD70A2D082A1300DC9A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDBBD70C2D082A1300DC9A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBBD7152D082A1400DC9A8B /* EduTrack_MasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduTrack_MasterTests.swift; sourceTree = "<group>"; };
+		CDBBD71F2D082A1400DC9A8B /* EduTrack_MasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduTrack_MasterUITests.swift; sourceTree = "<group>"; };
+		CDBBD7212D082A1400DC9A8B /* EduTrack_MasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduTrack_MasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDBBD7342D082C3D00DC9A8B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CDBBD7362D082C7600DC9A8B /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		CDBBD7372D082C7600DC9A8B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CDBBD73D2D082CE200DC9A8B /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		CDBBD73E2D082CE200DC9A8B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CDBBD73F2D082CE200DC9A8B /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		CDBBD7402D082CE200DC9A8B /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		D575FF069595F92E4E8C4815 /* Pods-EduTrack MasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTrack MasterTests.release.xcconfig"; path = "Target Support Files/Pods-EduTrack MasterTests/Pods-EduTrack MasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0A6B70F9F26075EF8809AD5 /* Pods_EduTrack_Master_EduTrack_MasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EduTrack_Master_EduTrack_MasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF82DCA2D2276A5009E2A77 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FFF82DCC2D227BF7009E2A77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFF82DFD2D228511009E2A77 /* EduTrackMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EduTrackMaster.entitlements; sourceTree = "<group>"; };
+		FFF82DFF2D228526009E2A77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FFF82E012D228533009E2A77 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		FFF82E022D228533009E2A77 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FFF82E032D228533009E2A77 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FFF82E042D2287EF009E2A77 /* EduTrackMaster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EduTrackMaster-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFF82E052D2287EF009E2A77 /* UIViewController+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+category.h"; sourceTree = "<group>"; };
+		FFF82E062D2287EF009E2A77 /* UIViewController+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+category.m"; sourceTree = "<group>"; };
+		FFF82E082D22893F009E2A77 /* BaseEduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEduViewController.swift; sourceTree = "<group>"; };
+		FFF82E0A2D228A67009E2A77 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDBBD6F82D082A1100DC9A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D527E4646B9B607EDBB82EC1 /* Pods_EduTrackMaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5B65182D102E5A00E47C51 /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				4E5B65192D102E9100E47C51 /* AddTaskViewController.swift */,
+				4E5B651B2D10364300E47C51 /* TaskHistoryViewController.swift */,
+				4E5B651D2D10365A00E47C51 /* TaskHistoryTableViewCell.swift */,
+			);
+			path = AddTask;
+			sourceTree = "<group>";
+		};
+		4EB2CE492D1005AE005076E1 /* Add Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				4EB2CE4A2D100610005076E1 /* AddAssignmentViewController.swift */,
+				4EB2CE4C2D101AA9005076E1 /* AssignmentHistoryViewController.swift */,
+				4EB2CE4E2D101B7C005076E1 /* HistoryTableViewCell.swift */,
+			);
+			path = "Add Assignment";
+			sourceTree = "<group>";
+		};
+		4EF843B02D0861BA00497126 /* Lecture */ = {
+			isa = PBXGroup;
+			children = (
+				4EF843B12D0861E900497126 /* AddlectureViewController.swift */,
+				4EA34F452D0C545C00B6D3FA /* LectureHistoryViewController.swift */,
+				4EA34F472D0C54A300B6D3FA /* lecturehistoryTableViewCell.swift */,
+			);
+			path = Lecture;
+			sourceTree = "<group>";
+		};
+		B461DA5241AD193BA653D0C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0A6B70F9F26075EF8809AD5 /* Pods_EduTrack_Master_EduTrack_MasterUITests.framework */,
+				C9C71131CFEEDC6F6C401440 /* Pods_EduTrack_MasterTests.framework */,
+				6CAAA0C5DC940EEDA5CA4F48 /* Pods_EduTrackMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDBBD6F22D082A1100DC9A8B = {
+			isa = PBXGroup;
+			children = (
+				CDBBD6FD2D082A1100DC9A8B /* EduTrackMaster */,
+				CDBBD7142D082A1400DC9A8B /* EduTrack MasterTests */,
+				CDBBD71E2D082A1400DC9A8B /* EduTrack MasterUITests */,
+				CDBBD6FC2D082A1100DC9A8B /* Products */,
+				D0B8367D1984713BB41462FB /* Pods */,
+				B461DA5241AD193BA653D0C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDBBD6FC2D082A1100DC9A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBD6FB2D082A1100DC9A8B /* EduTrackMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDBBD6FD2D082A1100DC9A8B /* EduTrackMaster */ = {
+			isa = PBXGroup;
+			children = (
+				FFF82DFD2D228511009E2A77 /* EduTrackMaster.entitlements */,
+				4E5B65182D102E5A00E47C51 /* AddTask */,
+				4EB2CE492D1005AE005076E1 /* Add Assignment */,
+				4EF843B02D0861BA00497126 /* Lecture */,
+				CDBBD73C2D082CC400DC9A8B /* Settings */,
+				CDBBD7302D082B4200DC9A8B /* Dashboard */,
+				CDBBD72F2D082B3100DC9A8B /* WelcomeScreen */,
+				CDBBD72E2D082B1800DC9A8B /* Helper */,
+				CDBBD6FE2D082A1100DC9A8B /* AppDelegate.swift */,
+				CDBBD7002D082A1100DC9A8B /* SceneDelegate.swift */,
+				CDBBD7022D082A1100DC9A8B /* ViewController.swift */,
+				CDBBD7042D082A1100DC9A8B /* Main.storyboard */,
+				CDBBD7072D082A1300DC9A8B /* Assets.xcassets */,
+				CDBBD7092D082A1300DC9A8B /* LaunchScreen.storyboard */,
+				CDBBD70C2D082A1300DC9A8B /* Info.plist */,
+			);
+			path = EduTrackMaster;
+			sourceTree = "<group>";
+		};
+		CDBBD7142D082A1400DC9A8B /* EduTrack MasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBD7152D082A1400DC9A8B /* EduTrack_MasterTests.swift */,
+			);
+			path = "EduTrack MasterTests";
+			sourceTree = "<group>";
+		};
+		CDBBD71E2D082A1400DC9A8B /* EduTrack MasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBD71F2D082A1400DC9A8B /* EduTrack_MasterUITests.swift */,
+				CDBBD7212D082A1400DC9A8B /* EduTrack_MasterUITestsLaunchTests.swift */,
+			);
+			path = "EduTrack MasterUITests";
+			sourceTree = "<group>";
+		};
+		CDBBD72E2D082B1800DC9A8B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FFF82DCC2D227BF7009E2A77 /* GoogleService-Info.plist */,
+				CDBBD7372D082C7600DC9A8B /* Helper.swift */,
+				CDBBD7362D082C7600DC9A8B /* iOSDropDown.swift */,
+				FFF82DFE2D228526009E2A77 /* Localizable.strings */,
+				FFF82E052D2287EF009E2A77 /* UIViewController+category.h */,
+				FFF82E062D2287EF009E2A77 /* UIViewController+category.m */,
+				FFF82E042D2287EF009E2A77 /* EduTrackMaster-Bridging-Header.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CDBBD72F2D082B3100DC9A8B /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FFF82DCA2D2276A5009E2A77 /* WelcomeViewController.swift */,
+				FFF82E082D22893F009E2A77 /* BaseEduViewController.swift */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		CDBBD7302D082B4200DC9A8B /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBD7342D082C3D00DC9A8B /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		CDBBD73C2D082CC400DC9A8B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBD73D2D082CE200DC9A8B /* AboutusViewController.swift */,
+				CDBBD7402D082CE200DC9A8B /* FeedbackViewController.swift */,
+				CDBBD73E2D082CE200DC9A8B /* SettingsViewController.swift */,
+				CDBBD73F2D082CE200DC9A8B /* SideMenuTableViewCell.swift */,
+				FFF82E0A2D228A67009E2A77 /* PrivacyPolicyViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D0B8367D1984713BB41462FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B437333828A2D0DE87B34F66 /* Pods-EduTrack Master.debug.xcconfig */,
+				6030BB217046F54BC3905173 /* Pods-EduTrack Master.release.xcconfig */,
+				9BD691AB637F6F06B1250101 /* Pods-EduTrack Master-EduTrack MasterUITests.debug.xcconfig */,
+				0EADE9B1F8D7F5C158132405 /* Pods-EduTrack Master-EduTrack MasterUITests.release.xcconfig */,
+				0FEF3216DA0BE85AF4BE87FB /* Pods-EduTrack MasterTests.debug.xcconfig */,
+				D575FF069595F92E4E8C4815 /* Pods-EduTrack MasterTests.release.xcconfig */,
+				11AC79BD2A159D6C64ADB205 /* Pods-EduTrackMaster.debug.xcconfig */,
+				0AF27D15683E19A8909BCB24 /* Pods-EduTrackMaster.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDBBD6FA2D082A1100DC9A8B /* EduTrackMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBBD7252D082A1400DC9A8B /* Build configuration list for PBXNativeTarget "EduTrackMaster" */;
+			buildPhases = (
+				00705CBC82090C781A039D78 /* [CP] Check Pods Manifest.lock */,
+				CDBBD6F72D082A1100DC9A8B /* Sources */,
+				CDBBD6F82D082A1100DC9A8B /* Frameworks */,
+				CDBBD6F92D082A1100DC9A8B /* Resources */,
+				0EC5E8127DA18DDD01EBE277 /* [CP] Embed Pods Frameworks */,
+				4DDB03BDADA0062E181A2CF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EduTrackMaster;
+			productName = "EduTrack Master";
+			productReference = CDBBD6FB2D082A1100DC9A8B /* EduTrackMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDBBD6F32D082A1100DC9A8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CDBBD6FA2D082A1100DC9A8B = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = CDBBD6F62D082A1100DC9A8B /* Build configuration list for PBXProject "EduTrackMaster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = CDBBD6F22D082A1100DC9A8B;
+			productRefGroup = CDBBD6FC2D082A1100DC9A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDBBD6FA2D082A1100DC9A8B /* EduTrackMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBBD6F92D082A1100DC9A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF82E002D228526009E2A77 /* Localizable.strings in Resources */,
+				CDBBD70B2D082A1300DC9A8B /* LaunchScreen.storyboard in Resources */,
+				FFF82DCD2D227BF7009E2A77 /* GoogleService-Info.plist in Resources */,
+				CDBBD7082D082A1300DC9A8B /* Assets.xcassets in Resources */,
+				CDBBD7062D082A1100DC9A8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00705CBC82090C781A039D78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EduTrackMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EC5E8127DA18DDD01EBE277 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EduTrackMaster/Pods-EduTrackMaster-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EduTrackMaster/Pods-EduTrackMaster-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EduTrackMaster/Pods-EduTrackMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DDB03BDADA0062E181A2CF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EduTrackMaster/Pods-EduTrackMaster-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EduTrackMaster/Pods-EduTrackMaster-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EduTrackMaster/Pods-EduTrackMaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDBBD6F72D082A1100DC9A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA34F462D0C545C00B6D3FA /* LectureHistoryViewController.swift in Sources */,
+				4E5B651E2D10365A00E47C51 /* TaskHistoryTableViewCell.swift in Sources */,
+				4EB2CE4B2D100610005076E1 /* AddAssignmentViewController.swift in Sources */,
+				4EA34F482D0C54A300B6D3FA /* lecturehistoryTableViewCell.swift in Sources */,
+				FFF82E092D22893F009E2A77 /* BaseEduViewController.swift in Sources */,
+				CDBBD7412D082CE200DC9A8B /* AboutusViewController.swift in Sources */,
+				CDBBD7382D082C7600DC9A8B /* iOSDropDown.swift in Sources */,
+				FFF82DCB2D2276A5009E2A77 /* WelcomeViewController.swift in Sources */,
+				CDBBD7442D082CE200DC9A8B /* FeedbackViewController.swift in Sources */,
+				FFF82E072D2287EF009E2A77 /* UIViewController+category.m in Sources */,
+				CDBBD7392D082C7600DC9A8B /* Helper.swift in Sources */,
+				4E5B651A2D102E9100E47C51 /* AddTaskViewController.swift in Sources */,
+				CDBBD7032D082A1100DC9A8B /* ViewController.swift in Sources */,
+				4EF843B22D0861E900497126 /* AddlectureViewController.swift in Sources */,
+				4EB2CE4F2D101B7C005076E1 /* HistoryTableViewCell.swift in Sources */,
+				4EB2CE4D2D101AA9005076E1 /* AssignmentHistoryViewController.swift in Sources */,
+				CDBBD7432D082CE200DC9A8B /* SideMenuTableViewCell.swift in Sources */,
+				CDBBD7352D082C3D00DC9A8B /* DashboardViewController.swift in Sources */,
+				CDBBD6FF2D082A1100DC9A8B /* AppDelegate.swift in Sources */,
+				CDBBD7012D082A1100DC9A8B /* SceneDelegate.swift in Sources */,
+				FFF82E0B2D228A67009E2A77 /* PrivacyPolicyViewController.swift in Sources */,
+				4E5B651C2D10364300E47C51 /* TaskHistoryViewController.swift in Sources */,
+				CDBBD7422D082CE200DC9A8B /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDBBD7042D082A1100DC9A8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBBD7052D082A1100DC9A8B /* Base */,
+				FFF82E012D228533009E2A77 /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDBBD7092D082A1300DC9A8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBBD70A2D082A1300DC9A8B /* Base */,
+				FFF82E022D228533009E2A77 /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFF82DFE2D228526009E2A77 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFF82DFF2D228526009E2A77 /* en */,
+				FFF82E032D228533009E2A77 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDBBD7232D082A1400DC9A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDBBD7242D082A1400DC9A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDBBD7262D082A1400DC9A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AC79BD2A159D6C64ADB205 /* Pods-EduTrackMaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = EduTrackMaster/EduTrackMaster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EduTrackMaster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EduTrack Master";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "EduTrack Master needs tracking to personalize your experience, enhance features, and analyze performance, providing a seamless and tailored experience designed just for you.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eductor.EduTrack-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EduTrackMaster/Helper/EduTrackMaster-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CDBBD7272D082A1400DC9A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF27D15683E19A8909BCB24 /* Pods-EduTrackMaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = EduTrackMaster/EduTrackMaster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EduTrackMaster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EduTrack Master";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "EduTrack Master needs tracking to personalize your experience, enhance features, and analyze performance, providing a seamless and tailored experience designed just for you.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eductor.EduTrack-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EduTrackMaster/Helper/EduTrackMaster-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDBBD6F62D082A1100DC9A8B /* Build configuration list for PBXProject "EduTrackMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBBD7232D082A1400DC9A8B /* Debug */,
+				CDBBD7242D082A1400DC9A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBBD7252D082A1400DC9A8B /* Build configuration list for PBXNativeTarget "EduTrackMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBBD7262D082A1400DC9A8B /* Debug */,
+				CDBBD7272D082A1400DC9A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDBBD6F32D082A1100DC9A8B /* Project object */;
+}

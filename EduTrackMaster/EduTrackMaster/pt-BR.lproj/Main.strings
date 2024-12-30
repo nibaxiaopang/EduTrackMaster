@@ -1,0 +1,381 @@
+
+/* Class = "UILabel"; text = "Lecture Name"; ObjectID = "0eL-Rh-tgB"; */
+"0eL-Rh-tgB.text" = "Lecture Name";
+
+/* Class = "UILabel"; text = "Please provide your valuable Feedback in here"; ObjectID = "11R-L9-wO2"; */
+"11R-L9-wO2.text" = "Please provide your valuable Feedback in here";
+
+/* Class = "UILabel"; text = "Task"; ObjectID = "1VD-1w-7CV"; */
+"1VD-1w-7CV.text" = "Task";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "267-Q2-aoH"; */
+"267-Q2-aoH.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "267-Q2-aoH"; */
+"267-Q2-aoH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Department"; ObjectID = "2Nr-2t-lYt"; */
+"2Nr-2t-lYt.text" = "Department";
+
+/* Class = "UILabel"; text = "Department/Section"; ObjectID = "2aT-0M-prF"; */
+"2aT-0M-prF.text" = "Department/Section";
+
+/* Class = "UILabel"; text = "Assignment Name"; ObjectID = "4Li-5J-k9E"; */
+"4Li-5J-k9E.text" = "Assignment Name";
+
+/* Class = "UILabel"; text = "Add Lecture"; ObjectID = "5Sc-N1-lOk"; */
+"5Sc-N1-lOk.text" = "Add Lecture";
+
+/* Class = "UITextField"; placeholder = "PCS 3D"; ObjectID = "6IT-5n-GAE"; */
+"6IT-5n-GAE.placeholder" = "PCS 3D";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "6yK-Id-fjD"; */
+"6yK-Id-fjD.normalTitle" = "Proceed";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "7lG-2S-hN2"; */
+"7lG-2S-hN2.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7lG-2S-hN2"; */
+"7lG-2S-hN2.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Task Record"; ObjectID = "8YJ-9j-QYY"; */
+"8YJ-9j-QYY.text" = "Task Record";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "9Rp-8j-JHm"; */
+"9Rp-8j-JHm.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9Rp-8j-JHm"; */
+"9Rp-8j-JHm.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "9eN-rN-baP"; */
+"9eN-rN-baP.text" = "label";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "9gu-ME-RcD"; */
+"9gu-ME-RcD.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9gu-ME-RcD"; */
+"9gu-ME-RcD.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "9iH-zi-23j"; */
+"9iH-zi-23j.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9iH-zi-23j"; */
+"9iH-zi-23j.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "AJE-X1-JlP"; */
+"AJE-X1-JlP.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AJE-X1-JlP"; */
+"AJE-X1-JlP.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Lecture Timing"; ObjectID = "BFF-FE-cih"; */
+"BFF-FE-cih.text" = "Lecture Timing";
+
+/* Class = "UILabel"; text = "Friday"; ObjectID = "BjG-J2-UX9"; */
+"BjG-J2-UX9.text" = "Friday";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "Ck3-wY-9rL"; */
+"Ck3-wY-9rL.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ck3-wY-9rL"; */
+"Ck3-wY-9rL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Task Records"; ObjectID = "E9N-Et-hji"; */
+"E9N-Et-hji.text" = "Task Records";
+
+/* Class = "UILabel"; text = "Assignmnet Completion date "; ObjectID = "ENp-VP-ZHl"; */
+"ENp-VP-ZHl.text" = "Assignmnet Completion date ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EvA-4D-682"; */
+"EvA-4D-682.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "F1c-Pe-jcz"; */
+"F1c-Pe-jcz.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "F1c-Pe-jcz"; */
+"F1c-Pe-jcz.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "FKT-vR-Od6"; */
+"FKT-vR-Od6.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FKT-vR-Od6"; */
+"FKT-vR-Od6.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "Welcome to EduTrack Master, your ultimate tool for efficient classroom management. Designed for educators, students, and institutions, EduTrack Master streamlines lecture organization, assignment management, and task tracking.\n\nOur Mission\nAt EduTrack Master, we aim to provide innovative tools that save time, boost productivity, and enhance the teaching and learning experience.\n\nKey Features\n\nPlan and Schedule Lectures: Easily set lecture times with timely notifications.\nManage Assignments: Create, distribute, and track assignments effortlessly.\nTask Organizer: Stay on top of tasks and deadlines.\nCustomizable Settings: Adapt the app to your teaching style.\nWhy Choose EduTrack Master?\n\nUser-Friendly: A simple, stress-free interface.\nSmart Time Management: Timely reminders for lectures and tasks.\nAll-in-One Solution: Manage lectures, assignments, and tasks in one app.\nJoin Us\nTransform your teaching and learning experience with EduTrack Master. Simplify your workload and focus on what matters—education"; ObjectID = "GEy-QF-uu3"; */
+"GEy-QF-uu3.text" = "Welcome to EduTrack Master, your ultimate tool for efficient classroom management. Designed for educators, students, and institutions, EduTrack Master streamlines lecture organization, assignment management, and task tracking.\n\nOur Mission\nAt EduTrack Master, we aim to provide innovative tools that save time, boost productivity, and enhance the teaching and learning experience.\n\nKey Features\n\nPlan and Schedule Lectures: Easily set lecture times with timely notifications.\nManage Assignments: Create, distribute, and track assignments effortlessly.\nTask Organizer: Stay on top of tasks and deadlines.\nCustomizable Settings: Adapt the app to your teaching style.\nWhy Choose EduTrack Master?\n\nUser-Friendly: A simple, stress-free interface.\nSmart Time Management: Timely reminders for lectures and tasks.\nAll-in-One Solution: Manage lectures, assignments, and tasks in one app.\nJoin Us\nTransform your teaching and learning experience with EduTrack Master. Simplify your workload and focus on what matters—education";
+
+/* Class = "UILabel"; text = "View lecture"; ObjectID = "Goi-Om-DCB"; */
+"Goi-Om-DCB.text" = "View lecture";
+
+/* Class = "UILabel"; text = "Streamline Your Teaching Tasks, Elevate Your Results with EduTrack_Master"; ObjectID = "IDD-qM-X2W"; */
+"IDD-qM-X2W.text" = "Streamline Your Teaching Tasks, Elevate Your Results with EduTrack_Master";
+
+/* Class = "UITextField"; placeholder = "Your Assignmnet Name"; ObjectID = "Ibz-m1-Y8z"; */
+"Ibz-m1-Y8z.placeholder" = "Your Assignmnet Name";
+
+/* Class = "UILabel"; text = "Add Assignment"; ObjectID = "L5p-X9-hZg"; */
+"L5p-X9-hZg.text" = "Add Assignment";
+
+/* Class = "UILabel"; text = "Scheduling date"; ObjectID = "LFF-72-c4e"; */
+"LFF-72-c4e.text" = "Scheduling date";
+
+/* Class = "UILabel"; text = "Sunday"; ObjectID = "M1q-TC-zdg"; */
+"M1q-TC-zdg.text" = "Sunday";
+
+/* Class = "UILabel"; text = "Tuesday"; ObjectID = "N39-dD-hAS"; */
+"N39-dD-hAS.text" = "Tuesday";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NGY-CN-8fe"; */
+"NGY-CN-8fe.text" = "Label";
+
+/* Class = "UILabel"; text = "Effortlessly access and track student records and progress anytime."; ObjectID = "OZw-b3-ixs"; */
+"OZw-b3-ixs.text" = "Effortlessly access and track student records and progress anytime.";
+
+/* Class = "UILabel"; text = "Schedule Date"; ObjectID = "Pv6-FX-apE"; */
+"Pv6-FX-apE.text" = "Schedule Date";
+
+/* Class = "UILabel"; text = "Time left"; ObjectID = "QC4-ET-eQs"; */
+"QC4-ET-eQs.text" = "Time left";
+
+/* Class = "UILabel"; text = "Task Description"; ObjectID = "Qqw-wP-I0n"; */
+"Qqw-wP-I0n.text" = "Task Description";
+
+/* Class = "UILabel"; text = "Records"; ObjectID = "R1A-T8-dCd"; */
+"R1A-T8-dCd.text" = "Records";
+
+/* Class = "UILabel"; text = "time left"; ObjectID = "TQN-ZB-odz"; */
+"TQN-ZB-odz.text" = "time left";
+
+/* Class = "UILabel"; text = "Monday"; ObjectID = "U6h-cY-eGi"; */
+"U6h-cY-eGi.text" = "Monday";
+
+/* Class = "UILabel"; text = "Add lectures"; ObjectID = "UHa-pT-R3i"; */
+"UHa-pT-R3i.text" = "Add lectures";
+
+/* Class = "UILabel"; text = "Add Task"; ObjectID = "V0c-uX-4Ai"; */
+"V0c-uX-4Ai.text" = "Add Task";
+
+/* Class = "UILabel"; text = "View Assignment"; ObjectID = "VcV-CH-u69"; */
+"VcV-CH-u69.text" = "View Assignment";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "VlZ-jb-BIz"; */
+"VlZ-jb-BIz.text" = "Description";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "Vn1-Us-psc"; */
+"Vn1-Us-psc.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Vn1-Us-psc"; */
+"Vn1-Us-psc.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Let's Go!"; ObjectID = "XyO-my-p8p"; */
+"XyO-my-p8p.configuration.title" = "Let's Go!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XyO-my-p8p"; */
+"XyO-my-p8p.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Assignment Name"; ObjectID = "YAM-0H-DRG"; */
+"YAM-0H-DRG.text" = "Assignment Name";
+
+/* Class = "UILabel"; text = "Saturday"; ObjectID = "YB4-qH-oYz"; */
+"YB4-qH-oYz.text" = "Saturday";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "Z5A-TL-ne3"; */
+"Z5A-TL-ne3.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Z5A-TL-ne3"; */
+"Z5A-TL-ne3.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Proceed"; ObjectID = "aBN-9U-g5n"; */
+"aBN-9U-g5n.configuration.title" = "Proceed";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aBN-9U-g5n"; */
+"aBN-9U-g5n.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aIy-sW-w2V"; */
+"aIy-sW-w2V.text" = "Label";
+
+/* Class = "UILabel"; text = "time left"; ObjectID = "aM7-OQ-zk4"; */
+"aM7-OQ-zk4.text" = "time left";
+
+/* Class = "UILabel"; text = "time left"; ObjectID = "aNk-Ne-0CJ"; */
+"aNk-Ne-0CJ.text" = "time left";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "adO-NG-SJW"; */
+"adO-NG-SJW.text" = "Description";
+
+/* Class = "UITextField"; placeholder = "PCS 3D"; ObjectID = "afx-vl-P61"; */
+"afx-vl-P61.placeholder" = "PCS 3D";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "bg6-7S-p35"; */
+"bg6-7S-p35.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bg6-7S-p35"; */
+"bg6-7S-p35.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "brv-Rx-zap"; */
+"brv-Rx-zap.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "brv-Rx-zap"; */
+"brv-Rx-zap.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Proceed"; ObjectID = "dcF-EV-VgU"; */
+"dcF-EV-VgU.normalTitle" = "Proceed";
+
+/* Class = "UILabel"; text = "App Settings"; ObjectID = "deO-r5-OHH"; */
+"deO-r5-OHH.text" = "App Settings";
+
+/* Class = "UITextField"; placeholder = "Task Title"; ObjectID = "dkd-K3-cGO"; */
+"dkd-K3-cGO.placeholder" = "Task Title";
+
+/* Class = "UILabel"; text = "Add Assign"; ObjectID = "eVb-hK-FDV"; */
+"eVb-hK-FDV.text" = "Add Assign";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "ekY-Go-fPb"; */
+"ekY-Go-fPb.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ekY-Go-fPb"; */
+"ekY-Go-fPb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Thursday"; ObjectID = "ep0-27-kXu"; */
+"ep0-27-kXu.text" = "Thursday";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "f6I-dB-LMq"; */
+"f6I-dB-LMq.text" = "Label";
+
+/* Class = "UILabel"; text = "Add Task"; ObjectID = "fHh-uc-exN"; */
+"fHh-uc-exN.text" = "Add Task";
+
+/* Class = "UILabel"; text = "Department/Section"; ObjectID = "fWZ-1R-mpt"; */
+"fWZ-1R-mpt.text" = "Department/Section";
+
+/* Class = "UITextField"; placeholder = "Lecture Name"; ObjectID = "fzj-ql-LHd"; */
+"fzj-ql-LHd.placeholder" = "Lecture Name";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "gPM-03-6lK"; */
+"gPM-03-6lK.text" = "Title";
+
+/* Class = "UILabel"; text = "Islamabad"; ObjectID = "hO5-g5-uI9"; */
+"hO5-g5-uI9.text" = "Islamabad";
+
+/* Class = "UILabel"; text = "Any Description"; ObjectID = "hwv-HX-w1d"; */
+"hwv-HX-w1d.text" = "Any Description";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "iKo-PJ-qDO"; */
+"iKo-PJ-qDO.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iKo-PJ-qDO"; */
+"iKo-PJ-qDO.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "ixZ-5K-G1j"; */
+"ixZ-5K-G1j.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ixZ-5K-G1j"; */
+"ixZ-5K-G1j.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "jcn-oM-KPc"; */
+"jcn-oM-KPc.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jcn-oM-KPc"; */
+"jcn-oM-KPc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Assigment date"; ObjectID = "kNO-jv-cGm"; */
+"kNO-jv-cGm.text" = "Assigment date";
+
+/* Class = "UILabel"; text = "Assignment completion"; ObjectID = "kWF-30-RYP"; */
+"kWF-30-RYP.text" = "Assignment completion";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "m2h-aY-xeS"; */
+"m2h-aY-xeS.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "m2h-aY-xeS"; */
+"m2h-aY-xeS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Select Lecture Days"; ObjectID = "mtA-2O-fsz"; */
+"mtA-2O-fsz.text" = "Select Lecture Days";
+
+/* Class = "UILabel"; text = "Assign History"; ObjectID = "nNv-1A-Dj4"; */
+"nNv-1A-Dj4.text" = "Assign History";
+
+/* Class = "UILabel"; text = "Wednesday"; ObjectID = "oGx-iE-wxR"; */
+"oGx-iE-wxR.text" = "Wednesday";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "oWB-Jf-yqX"; */
+"oWB-Jf-yqX.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oWB-Jf-yqX"; */
+"oWB-Jf-yqX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Immersion in the world of knowledge!"; ObjectID = "oiM-Jv-wQq"; */
+"oiM-Jv-wQq.text" = "Immersion in the world of knowledge!";
+
+/* Class = "UILabel"; text = "Lecture Records"; ObjectID = "ooL-fE-fma"; */
+"ooL-fE-fma.text" = "Lecture Records";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "oyw-yB-MoA"; */
+"oyw-yB-MoA.text" = "Feedback";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "p7s-iT-AKB"; */
+"p7s-iT-AKB.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "p7s-iT-AKB"; */
+"p7s-iT-AKB.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "About US"; ObjectID = "pWG-NX-db6"; */
+"pWG-NX-db6.text" = "About US";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pjP-6X-Jhv"; */
+"pjP-6X-Jhv.text" = "Label";
+
+/* Class = "UILabel"; text = "Assignment"; ObjectID = "pwR-0P-wW5"; */
+"pwR-0P-wW5.text" = "Assignment";
+
+/* Class = "UILabel"; text = "Dashboard"; ObjectID = "r4Q-gk-W1F"; */
+"r4Q-gk-W1F.text" = "Dashboard";
+
+/* Class = "UILabel"; text = "Others"; ObjectID = "sFE-Ah-Frv"; */
+"sFE-Ah-Frv.text" = "Others";
+
+/* Class = "UILabel"; text = "Current Date:"; ObjectID = "sI6-ck-toe"; */
+"sI6-ck-toe.text" = "Current Date:";
+
+/* Class = "UILabel"; text = "Lecture Name"; ObjectID = "swa-Nv-JW8"; */
+"swa-Nv-JW8.text" = "Lecture Name";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "uaZ-9R-U8A"; */
+"uaZ-9R-U8A.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uaZ-9R-U8A"; */
+"uaZ-9R-U8A.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Step into a world where learning becomes effortless and engaging. Explore, grow, and achieve—all from one powerful platform. Whether you're teaching or learning, our all-in-one app simplifies every step. Stay organized, manage tasks, and make progress with ease."; ObjectID = "vfn-Wf-New"; */
+"vfn-Wf-New.text" = "Step into a world where learning becomes effortless and engaging. Explore, grow, and achieve—all from one powerful platform. Whether you're teaching or learning, our all-in-one app simplifies every step. Stay organized, manage tasks, and make progress with ease.";
+
+/* Class = "UILabel"; text = "lecture Date"; ObjectID = "w0B-Bf-zwD"; */
+"w0B-Bf-zwD.text" = "lecture Date";
+
+/* Class = "UILabel"; text = "Task Title"; ObjectID = "xGu-BH-G6L"; */
+"xGu-BH-G6L.text" = "Task Title";
+
+/* Class = "UIButton"; configuration.title = "Proceed"; ObjectID = "xPP-7Z-KDA"; */
+"xPP-7Z-KDA.configuration.title" = "Proceed";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xPP-7Z-KDA"; */
+"xPP-7Z-KDA.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "xqP-Ly-5A2"; */
+"xqP-Ly-5A2.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xqP-Ly-5A2"; */
+"xqP-Ly-5A2.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "xxq-4k-zjs"; */
+"xxq-4k-zjs.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xxq-4k-zjs"; */
+"xxq-4k-zjs.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Your Feedback"; ObjectID = "yQT-uf-1Ug"; */
+"yQT-uf-1Ug.text" = "Your Feedback";
+
+/* Class = "UILabel"; text = "Comment"; ObjectID = "zz1-7e-1DK"; */
+"zz1-7e-1DK.text" = "Comment";
